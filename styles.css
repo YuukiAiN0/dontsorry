@@ -66,7 +66,15 @@ p {
     background: white;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.section4 {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 
@@ -85,6 +93,16 @@ p {
 
 .section2 .column {
     flex: 1; 
+}
+
+.section4 .column {
+    flex: 1; 
+}
+
+.section4 .column p{
+    font-size: 18px;
+    margin-right: 30px;
+    color: rgb(0, 0, 0);
 }
 
 .section2 .column p{
@@ -115,6 +133,10 @@ p {
 }
 
 .section3 img{
+    border-radius: 5px;
+}
+
+.section4 img{
     border-radius: 5px;
 }
 
