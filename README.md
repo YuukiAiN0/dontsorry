@@ -1,1 +1,3 @@
-# dontsorry.github.io
+yuukiain0.github.io/dontsorry/
+
+Inspired from : https://nohello.net/en/
