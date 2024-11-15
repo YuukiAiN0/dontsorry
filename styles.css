@@ -13,8 +13,8 @@ body {
 }
 
 strong {
-    font-weight: bold; /* Ensures strong text is bold */
-    color: #333; /* Optional: Adjust color if needed */
+    font-weight: bold; 
+    color: #333; 
 }
 
 .container {
@@ -58,8 +58,8 @@ p {
     flex-direction: column;
     gap: 20px;
     max-width: 800px;
-    margin: 0;  /* Removed auto margins */
-    padding-left: 10px; /* Added left padding for alignment */
+    margin: 0;  
+    padding-left: 10px; 
 }
 
 .section {
@@ -84,7 +84,7 @@ p {
 }
 
 .section2 .column {
-    flex: 1; /* Each column takes up equal space */
+    flex: 1; 
 }
 
 .section2 .column p{
@@ -146,9 +146,6 @@ p {
     line-height: 1.6;
 }
 
-
-
-
 @media screen and (max-width: 767px) {
     .container {
         padding: 15px;
@@ -156,18 +153,46 @@ p {
 
     .header {
         margin: 20px 0;
-        padding-left: 20px; /* Reduced padding for mobile */
+        padding-left: 20px; 
+    }
+
+    .header h1 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        text-align: center;     
+    }
+
+    #changing-word {
+        margin-top: 10px;       
+        font-size: 1.5rem;      
+    }
+
+    .section2 img {
+        width: 100%;           
+        height: auto;          
+    }
+
+    .section3 img {
+        width: 100%;           
+        height: auto;          
     }
 
     .main-content {
-        padding-left: 20px; /* Reduced padding for mobile */
+        padding-left: 20px;
     }
 
     .section {
         padding: 20px;
     }
+
     .section2 {
         flex-direction: column;
+    }
+
+    h2 {
+        font-size: 1rem; 
+        text-align: center; 
     }
     
 }
